@@ -1,0 +1,74 @@
+{
+  "not_authorized":{
+    "status":"error",
+    "error-code":"not_authorized",
+    "message":"User is not authorized."
+  },
+  "invalid_user":{
+    "status":"error",
+    "message":"This user is invalid."
+  },
+  "bad_request":{
+    "status":"error",
+    "message":"Invalid request."
+  },
+  "404_error":{
+    "status":"error",
+    "message":"Page not found."
+  },
+  "500_error":{
+    "status":"error",
+    "message":"Internal server error."
+  },
+  "Invalid username or password":{
+    "status":"error",
+    "message":"Incorrect username or password."
+  },
+  "Missing credentials":{
+    "status":"error",
+    "message":"Username or password can not be empty."
+  },
+  "invalid_project":{
+    "status":"error",
+    "message":"Project not found."
+  },
+  "reset_message":{
+    "status":"success",
+    "message":"An email has been sent to the provided email with further instructions."
+  },
+  "signup_success":{
+    "status":"success"
+  },
+  "Username already exists":{
+    "status":"error",
+    "message":"Username already exists"
+  },
+  "Please fill in a username":{
+    "status":"error",
+    "message":"Please fill in a username"
+  },
+  "Please fill a valid email address":{
+    "status":"error",
+    "message":"Please fill a valid email address"
+  },
+  "Please fill in your first name":{
+    "status":"error",
+    "message":"Please fill in your first name"
+  },
+  "Please fill in your last name":{
+    "status":"error",
+    "message":"Please fill in your last name"
+  },
+  "send_mail_fail":{
+    "status":"error",
+    "message":"Failure sending email."
+  },
+  "config_not_found":{
+    "status":"error",
+    "message":"Config not found."
+  },
+  "service_not_found":{
+    "status":"error",
+    "message":"Service not found."
+  }
+}
