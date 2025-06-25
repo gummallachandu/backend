@@ -89,3 +89,20 @@ CloudWatch	Two separate log groups	For isolated logging of the AutoGen app and t
 SonarQube	New project dashboard	Integrated with both Git repos for CI/CD code quality scanning.
 Please let us know if you have any questions or require further details. We are available to discuss the architecture and requirements at your convenience.
 
+
+
+
+{
+  "PK": "WORKFLOW#wf_20250622_182434",
+  "SK": "STATE#ba_start_20250622_182434",
+  "state_id": "ba_start_20250622_182434",
+  "workflow_id": "wf_20250622_182434",
+  "agent": "BA_Agent",
+  "task": "generate_stories",
+  "output": {
+    "stories_file": "stories_upload_20250622_182432.txt",
+    "confidence": 0.95
+  },
+  "status": "success",
+  "timestamp": 1678886400 # Unix epoch for when this state was saved
+}
